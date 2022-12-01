@@ -12,7 +12,7 @@ User adalah individu yang menggunakan ERP
 
 ### **Role**
 
-**Role** adalah peran dari **User**. ERP akan mengimplementasikan Role secara dinamis, sehingga tidak akan ada batasan dalam pembuatan Role. Namun, ada beberapa Role yang memang sudah ditentukan diawal dan disesuaikan sesuai dengan entitasnya masing-masing seperti berikut :&#x20;
+**Role** adalah peran dari **User**. ERP akan mengimplementasikan Role secara dinamis, sehingga tidak akan ada batasan dalam pembuatan Role. Namun, ada beberapa Role yang memang sudah ditentukan diawal dan disesuaikan sesuai dengan modulnya masing-masing seperti berikut :&#x20;
 
 #### Core
 
