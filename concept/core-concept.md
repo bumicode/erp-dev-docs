@@ -28,6 +28,14 @@ User adalah individu yang menggunakan ERP
 
 1. Supplier
 
+#### Accounting
+
+1. Accountant
+
+#### Warehouse
+
+1. Warehouse Worker
+
 ### Permission (Izin)
 
 **Permission** adalah izin apa saja yang dimiliki oleh **Role**. **Permission** akan disesuaikan dengan entitas yang ada dan setiap entitas minimal memiliki **Permission** berikut
