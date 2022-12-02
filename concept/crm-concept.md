@@ -24,7 +24,7 @@ Mengenal alur CRM dari Lead sampai Pembayaran (Sales)
 * **Lead** memiliki satu atau lebih **Quotation**
 * **Lead** memiliki satu atau lebih **Item**.&#x20;
 
-{% hint style="info" %}
+{% hint style="success" %}
 **Note**: Item disini adalah produk atau layanan yang membuat mereka tertarik.
 {% endhint %}
 
@@ -39,12 +39,18 @@ Mengenal alur CRM dari Lead sampai Pembayaran (Sales)
 * **Lead** has 0 to many **Quotations**; **Quotation** belongs to Lead
 * **Lead** morph to many **Itemables**; **Itemables** morphed to Many Leads
 
+{% hint style="info" %}
+**Lead** dapat berubah menjadi **Opportunity** / **Customer**. Bukan berarti hanya statusnya saja yang berubah tapi menyalin datanya juga ke entitas **Opportunity** atau **Customer** sehingga pada relasi diatas "has 0 to one" yang artinya **Opportunity** / **Customer** milik Lead.
+
+Ini dilakukan untuk memudahkan dalam pelaporan.
+{% endhint %}
+
 {% hint style="warning" %}
 **Note:** \*
 
-* Polymorphic ( Many To Many ) : Addressable&#x20;
-* Polymorphic ( Many To Many ) : Contactable
-* Polymorphic ( Many To Many ) : Itemable
+* **Addressable  :** Polymorphic ( Many To Many )
+* **Contactable :** Polymorphic ( Many To Many )&#x20;
+* **Itemable :** Polymorphic ( Many To Many )
 {% endhint %}
 
 ## Opportunity
