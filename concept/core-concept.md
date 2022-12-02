@@ -1,5 +1,9 @@
 # Core Concept
 
+{% hint style="danger" %}
+**Konsep belum final dan ada kemungkinan akan diubah sewaktu-waktu.**
+{% endhint %}
+
 ## Company (Perusahaan)
 
 **Company** adalah pemilik atau pengguna ERP ( tidak merepresentasikan sebagai individu ). **Company** berelasi dengan semua entitas yang ada pada ERP
@@ -21,8 +25,9 @@ User adalah individu yang menggunakan ERP
 #### Selling
 
 1. Sales Partner
-2. Sales Person
-3. POS Profile
+2. Sales Manager
+3. Sales Person
+4. POS Profile
 
 #### Buying
 
