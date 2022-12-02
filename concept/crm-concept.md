@@ -1,5 +1,9 @@
 # CRM Concept
 
+{% hint style="danger" %}
+**Konsep belum final dan ada kemungkinan akan diubah sewaktu-waktu.**
+{% endhint %}
+
 Mengenal alur CRM dari Lead sampai Pembayaran (Sales)
 
 ## Lead
@@ -10,7 +14,7 @@ Mengenal alur CRM dari Lead sampai Pembayaran (Sales)
 * Customer (Pelanggan)\
 
 
-Logika :
+### Logika :
 
 * **Lead** milik **Company** (secara sistem) dan milik **Sales Partner** atau **Sales Person** (secara individu)
 * **Lead** memiliki satu atau lebih **Address (Alamat)**.
@@ -18,11 +22,34 @@ Logika :
 * **Lead** dapat berubah menjadi **Opportunity**.
 * **Lead** dapat berubah menjadi **Customer**.
 * **Lead** memiliki satu atau lebih **Quotation**
-* **Lead** memiliki satu atau lebih **Item**. Note: Item disini adalah produk atau layanan yang membuat mereka tertarik.
+* **Lead** memiliki satu atau lebih **Item**.&#x20;
+
+{% hint style="info" %}
+**Note**: Item disini adalah produk atau layanan yang membuat mereka tertarik.
+{% endhint %}
+
+### Relasi :
+
+* **Lead** belongs to a **Company**; **Company** has 0 to many **Leads**
+* **Lead** belongs to a **Sales Partner**; **Sales Partner** has 0 to many **Leads** or **Lead** belongs to a **Sales Person**; **Sales Person** has 0 to many **Leads**
+* **Lead** morph to many **Addressess**; **Address** morphed by Many **Leads**.\*
+* **Lead** morph to many **Contacts**; **Contact** morphed by Many **Leads**.\*
+* **Lead** has 0 to one **Opportunity**; **Opportunity** belongs to a Lead
+* **Lead** has 0 to one **Customer**; **Customer** belongs to a Lead
+* **Lead** has 0 to many **Quotations**; **Quotation** belongs to Lead
+* **Lead** morph to many **Itemables**; **Itemables** morphed to Many Leads
+
+{% hint style="warning" %}
+**Note:** \*
+
+* Polymorphic ( Many To Many ) : Addressable&#x20;
+* Polymorphic ( Many To Many ) : Contactable
+* Polymorphic ( Many To Many ) : Itemable
+{% endhint %}
 
 ## Opportunity
 
-Opportunity adalah&#x20;
+**Opportunity** adalah prospek yang diduga memiliki **kemungkinan tinggi** untuk menjadi pelanggan baru (**Customer**).&#x20;
 
 * Quotation
 * Sales Order
