@@ -6,11 +6,11 @@
 
 ## Company (Perusahaan)
 
-**Company** adalah pemilik atau pengguna ERP ( tidak merepresentasikan sebagai individu ). **Company** berelasi dengan semua entitas yang ada pada ERP
+**Company** adalah pemilik ERP ( tidak merepresentasikan sebagai individu ). **Company** berelasi dengan semua entitas yang ada pada ERP.
 
 ## User (Pengguna)
 
-User adalah individu yang menggunakan ERP
+**User** adalah individu yang menggunakan ERP. **User** berelasi dengan semua entitas yang ada pada ERP.
 
 ## Role (Peran) & Permission (Izin)
 
@@ -58,3 +58,8 @@ User adalah individu yang menggunakan ERP
 3. Dapat Menghapus Data Milik Orang Lain (can delete other people's data)
 {% endhint %}
 
+## Keamanan Sistem (System Security)
+
+### System Logs (Catatan Sistem)
+
+### Data Audit&#x20;
