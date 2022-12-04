@@ -1,5 +1,5 @@
 ---
-description: Tentang Logika dan Relasi Lead Opportunity Address
+description: Logika dan Relasi Lead Address
 ---
 
 # Address

@@ -1,5 +1,5 @@
 ---
-description: Tentang Logika dan Relasi Lead Opportunity Contact
+description: Logika dan Relasi Lead Contact
 ---
 
 # Contact

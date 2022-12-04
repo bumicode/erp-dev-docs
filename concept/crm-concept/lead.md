@@ -1,5 +1,5 @@
 ---
-description: Tentang Logika dan Relasi Lead
+description: Logika dan Relasi Lead
 ---
 
 # Lead
@@ -18,9 +18,9 @@ description: Tentang Logika dan Relasi Lead
 * **Lead** milik **Sales Person** (secara individu).
 * **Lead** memiliki satu atau lebih **Address (Alamat)**.
 * **Lead** memiliki satu atau lebih **Contact (Kontak)**.
-* **Lead** dapat berubah menjadi **Opportunity**.
-* **Lead** dapat berubah menjadi **Customer**.
-* **Lead** memiliki 0 atau lebih **Quotation.**
+* **Lead** dapat menjadi **Opportunity**.
+* **Lead** dapat menjadi **Customer**.
+* **Lead** memiliki 0 atau lebih [**Quotation**](../selling-concept/quotation.md)**.**
 * **Lead** memiliki 0 atau lebih **Item**.&#x20;
 
 ### Relasi :
@@ -39,6 +39,10 @@ description: Tentang Logika dan Relasi Lead
 **Lead** dapat berubah menjadi **Opportunity** / **Customer**. Bukan berarti hanya statusnya saja yang berubah tapi menyalin datanya juga ke entitas **Opportunity** atau **Customer** sehingga pada relasi diatas "has 0 to one" yang artinya **Opportunity** / **Customer** dapat dimiliki **Lead**.
 
 Ini dilakukan untuk memudahkan dalam pelaporan.
+{% endhint %}
+
+{% hint style="info" %}
+**Item** yang ada disini adalah daftar keinginan (wishlist) dan belum masuk ke transaksi.
 {% endhint %}
 
 {% hint style="warning" %}

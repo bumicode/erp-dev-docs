@@ -7,6 +7,7 @@
     * [Lead](concept/crm-concept/lead.md)
     * [Opportunity](concept/crm-concept/opportunity.md)
     * [Customer](concept/crm-concept/customer.md)
-    * [Quotation](concept/crm-concept/quotation.md)
     * [Contact](concept/crm-concept/contact.md)
     * [Address](concept/crm-concept/address.md)
+  * [Selling Concept](concept/selling-concept/README.md)
+    * [Quotation](concept/selling-concept/quotation.md)
