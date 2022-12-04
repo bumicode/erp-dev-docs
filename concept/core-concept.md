@@ -1,9 +1,5 @@
 # Core Concept
 
-{% hint style="danger" %}
-**Konsep belum final dan ada kemungkinan akan diubah sewaktu-waktu.**
-{% endhint %}
-
 ## Company (Perusahaan)
 
 **Company** adalah pemilik ERP ( tidak merepresentasikan sebagai individu ). **Company** berelasi dengan semua entitas yang ada pada ERP.
