@@ -16,8 +16,8 @@ description: Logika dan Relasi Lead
 * **Lead** milik **Company** (secara sistem).
 * **Lead** milik **Sales Partner** (secara individu).&#x20;
 * **Lead** milik **Sales Person** (secara individu).
-* **Lead** memiliki satu atau lebih **Address (Alamat)**.
-* **Lead** memiliki satu atau lebih **Contact (Kontak)**.
+* **Lead** memiliki satu atau lebih [**Address (Alamat)**](address.md).
+* **Lead** memiliki satu atau lebih [**Contact (Kontak)**](contact.md).
 * **Lead** dapat menjadi **Opportunity**.
 * **Lead** dapat menjadi **Customer**.
 * **Lead** memiliki 0 atau lebih [**Quotation**](../selling-concept/quotation.md)**.**

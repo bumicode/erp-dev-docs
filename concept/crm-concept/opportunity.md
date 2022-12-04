@@ -13,7 +13,7 @@ description: Logika dan Relasi Lead Opportunity
 * **Opportunity** milik **Company** (secara sistem).
 * **Opportunity** milik **Sales Partner** (individu / company (B2B)).
 * **Opportunity** milik **Sales Person** (secara individu).
-* **Opportunity** dapat dimiliki **Lead**.
+* **Opportunity** dapat dikaitkan dengan **Lead**.
 * **Opportunity** memiliki satu atau lebih **Address (Alamat)**.
 * **Opportunity** memiliki satu atau lebih **Contact (Kontak)**.
 * **Opportunity** dapat menjadi **Customer**.
