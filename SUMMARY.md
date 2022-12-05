@@ -3,6 +3,7 @@
 * [👨💻 Welcome](README.md)
 * [🤓 Konsep](concept/README.md)
   * [Core Concept](concept/core-concept.md)
+  * [Accounts](concept/accounts.md)
   * [CRM Concept](concept/crm-concept.md)
     * [Lead](concept/crm-concept/lead.md)
     * [Opportunity](concept/crm-concept/opportunity.md)

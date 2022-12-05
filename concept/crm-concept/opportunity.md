@@ -10,16 +10,16 @@ description: Logika dan Relasi Lead Opportunity
 
 ### Logika :
 
-* **Opportunity** milik **Company** (secara sistem).
-* **Opportunity** milik **Sales Partner** (individu / company (B2B)).
+* **Opportunity** milik [**Company** ](../core-concept.md#company-perusahaan)(secara sistem).
+* **Opportunity** milik [**Sales Partner**](../selling-concept/sales-partner.md) (individu / company (B2B)).
 * **Opportunity** milik **Sales Person** (secara individu).
-* **Opportunity** dapat dikaitkan dengan **Lead**.
-* **Opportunity** memiliki satu atau lebih **Address (Alamat)**.
-* **Opportunity** memiliki satu atau lebih **Contact (Kontak)**.
-* **Opportunity** dapat menjadi **Customer**.
+* **Opportunity** dapat dikaitkan dengan [**Lead**](lead.md).
+* **Opportunity** memiliki satu atau lebih [**Address** ](address.md)**(Alamat)**.
+* **Opportunity** memiliki satu atau lebih [**Contact** ](contact.md)**(Kontak)**.
+* **Opportunity** dapat menjadi [**Customer**](customer.md).
 * **Opportunity** memiliki 0 atau lebih [**Quotation**](../selling-concept/quotation.md)**.**
-* **Opportunity** memiliki 0 atau lebih **Item**.&#x20;
-* **Opportunity** memiliki 0 atau lebih **Sales Order (Pesanan Penjualan)**.
+* **Opportunity** memiliki 0 atau lebih [**Item**](../stock-concept/basic/item.md).&#x20;
+* **Opportunity** memiliki 0 atau lebih [**Sales Order**](../selling-concept/sales-order.md) **(Pesanan Penjualan)**.
 
 ### Relasi :
 
