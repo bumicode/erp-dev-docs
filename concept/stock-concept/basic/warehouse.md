@@ -1,2 +1,14 @@
 # Warehouse
 
+## Warehouse
+
+**Warehouse** adalah gudang yang digunakan untuk menyimpan barang atau produk. Warehouse dapat digunakan oleh perusahaan atau bisnis untuk menyimpan produk-produk yang akan dijual, barang-barang yang sudah diterima dari pemasok, atau bahan baku yang akan digunakan dalam produksi. Warehouse juga dapat digunakan sebagai tempat untuk menyimpan produk-produk yang sudah tidak dipakai atau sudah kedaluwarsa.
+
+### Logika&#x20;
+
+* **Warehouse** milik [**Company** ](../../core-concept.md#company-perusahaan)(secara sistem).
+* **Warehouse** memiliki satu atau lebih [**Contact** ](../../crm-concept/contact.md)**(Kontak)**.
+* **Warehouse** memiliki satu atau lebih [**Address** ](../../crm-concept/address.md)**(Alamat)**.
+* **Warehouse** memiliki satu atau lebih [**Item**](item.md)****
+
+### Relasi

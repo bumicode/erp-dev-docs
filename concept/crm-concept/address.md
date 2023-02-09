@@ -6,7 +6,7 @@ description: Logika dan Relasi Lead Address
 
 ## Address
 
-**Address** merepresentasikan individu atau seseorang
+**Address** merepresentasikan alamat dari individu atau sebagainya yang bisa memiliki alamat.
 
 ### **Logika**
 
