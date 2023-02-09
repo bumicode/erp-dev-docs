@@ -37,3 +37,11 @@ description: Logika dan Relasi Lead Opportunity
 {% hint style="info" %}
 **Item** yang ada disini adalah daftar keinginan (wishlist) dan belum masuk ke transaksi.
 {% endhint %}
+
+{% hint style="warning" %}
+**Note:** \*
+
+* **Addressable  :** Polymorphic ( Many To Many )
+* **Contactable :** Polymorphic ( Many To Many )&#x20;
+* **Itemable :** Polymorphic ( Many To Many )
+{% endhint %}

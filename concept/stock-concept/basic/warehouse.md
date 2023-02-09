@@ -12,3 +12,15 @@
 * **Warehouse** memiliki satu atau lebih [**Item**](item.md)****
 
 ### Relasi
+
+* **Warehouse** belongs to a **Company**; **Company** has 0 to many **Leads.**
+* **Warehouse** morph to many **Addressess**; **Address** morphed by Many **Warehouse**.\*
+* **Warehouse** morph to many **Contacts**; **Contact** morphed by Many **Warehouse**.\*
+* **Warehouse** has 0 to many **Items**; **Item** belongs to **Warehouse**.
+
+{% hint style="warning" %}
+**Note:** \*
+
+* **Addressable  :** Polymorphic ( Many To Many )
+* **Contactable :** Polymorphic ( Many To Many )
+{% endhint %}
