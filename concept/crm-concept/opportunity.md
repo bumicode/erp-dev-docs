@@ -6,13 +6,13 @@ description: Logika dan Relasi Lead Opportunity
 
 ## Opportunity
 
-**Opportunity** adalah prospek yang diduga memiliki **kemungkinan tinggi** untuk menjadi pelanggan (**Customer**).&#x20;
+**Opportunity** adalah prospek yang sudah dikenal dan memiliki potensi untuk menjadi pelanggan. **Opportunity** adalah langkah berikutnya setelah **Lead**, dan membutuhkan lebih banyak interaksi dan penjualan untuk memastikan bahwa mereka akan menjadi pelanggan aktif.
 
 ### Logika :
 
 * **Opportunity** milik [**Company** ](../core-concept.md#company-perusahaan)(secara sistem).
 * **Opportunity** milik [**Sales Partner**](../selling-concept/sales-partner.md) (individu / company (B2B)).
-* **Opportunity** milik **Sales Person** (secara individu).
+* **Opportunity** milik **Salesperson** (secara individu).
 * **Opportunity** dapat dikaitkan dengan [**Lead**](lead.md).
 * **Opportunity** memiliki satu atau lebih [**Address** ](address.md)**(Alamat)**.
 * **Opportunity** memiliki satu atau lebih [**Contact** ](contact.md)**(Kontak)**.

@@ -12,7 +12,7 @@ description: Logika dan Relasi Lead Customer
 
 * **Customer** milik [**Company** ](../core-concept.md#company-perusahaan)(secara sistem).
 * **Customer** milik [**Sales Partner**](../selling-concept/sales-partner.md) (individu / company (B2B)).
-* **Customer** milik **Sales Person** (secara individu).
+* **Customer** milik **Salesperson** (secara individu).
 * **Customer** dapat dikaitkan dengan [**Lead**](lead.md).
 * **Customer** dapat dikaitkan dengan [**Opportunity**](opportunity.md)**.**
 * **Customer** memiliki satu atau lebih [**Address** ](address.md)**(Alamat)**.

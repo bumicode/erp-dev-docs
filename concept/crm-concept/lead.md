@@ -6,16 +6,16 @@ description: Logika dan Relasi Lead
 
 ## Lead
 
-**Lead** bisa dibilang sebagai **Potential Customer**. Artinya, mereka adalah seseorang atau sekelompok yang tertarik terhadap sesuatu yang sudah di tawarkan, biasanya mereka sudah memberikan informasi data diri seperti nama, email, telepon dan sebagainya. Lead dapat di teruskan atau di ubah ke entitas berikut :
+**Lead** adalah potensial calon pelanggan yang belum memenuhi kriteria sebagai pelanggan. **Lead** biasanya diperoleh melalui aktivitas pemasaran seperti pameran dagang, pendaftaran situs web, atau penawaran promosi. **Lead** harus dikonversi menjadi peluang sebelum dapat menjadi pelanggan. **Lead** dapat di teruskan atau di ubah ke entitas berikut :
 
-* Opportunity (Peluang)
-* Customer (Pelanggan)
+* **Opportunity** (Peluang)
+* **Customer** (Pelanggan)
 
 ### Logika :
 
 * **Lead** milik [**Company** ](../core-concept.md#company-perusahaan)(secara sistem).
 * **Lead** milik [**Sales Partner**](../selling-concept/sales-partner.md) **** (secara individu).&#x20;
-* **Lead** milik **Sales Person** (secara individu).
+* **Lead** milik **Salesperson** (secara individu).
 * **Lead** memiliki satu atau lebih [**Address (Alamat)**](address.md).
 * **Lead** memiliki satu atau lebih [**Contact (Kontak)**](contact.md).
 * **Lead** dapat menjadi [**Opportunity**](opportunity.md).

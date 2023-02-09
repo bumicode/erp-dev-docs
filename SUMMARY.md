@@ -7,6 +7,7 @@
   * [CRM Concept](concept/crm-concept.md)
     * [Lead](concept/crm-concept/lead.md)
     * [Opportunity](concept/crm-concept/opportunity.md)
+    * [Prospect](concept/crm-concept/prospect.md)
     * [Customer](concept/crm-concept/customer.md)
     * [Contact](concept/crm-concept/contact.md)
     * [Address](concept/crm-concept/address.md)
