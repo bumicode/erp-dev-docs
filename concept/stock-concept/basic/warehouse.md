@@ -9,11 +9,11 @@
 * **Warehouse** milik [**Company** ](../../core-concept.md#company-perusahaan)(secara sistem).
 * **Warehouse** memiliki satu atau lebih [**Contact** ](../../crm-concept/contact.md)**(Kontak)**.
 * **Warehouse** memiliki satu atau lebih [**Address** ](../../crm-concept/address.md)**(Alamat)**.
-* **Warehouse** memiliki satu atau lebih [**Item**](item.md)****
+* **Warehouse** memiliki 0 atau lebih [**Item**](item.md)****
 
 ### Relasi
 
-* **Warehouse** belongs to a **Company**; **Company** has 0 to many **Leads.**
+* **Warehouse** belongs to a **Company**; **Company** has 0 to many **Warehouse.**
 * **Warehouse** morph to many **Addressess**; **Address** morphed by Many **Warehouse**.\*
 * **Warehouse** morph to many **Contacts**; **Contact** morphed by Many **Warehouse**.\*
 * **Warehouse** has 0 to many **Items**; **Item** belongs to **Warehouse**.
