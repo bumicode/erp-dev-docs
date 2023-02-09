@@ -54,8 +54,4 @@
 3. Dapat Menghapus Data Milik Orang Lain (can delete other people's data)
 {% endhint %}
 
-## Keamanan Sistem (System Security)
-
-### System Logs (Catatan Sistem)
-
-### Data Audit&#x20;
+## [Keamanan Sistem (System Security)](../system-security/)

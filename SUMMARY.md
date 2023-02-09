@@ -36,3 +36,6 @@
     * [Return](concept/stock-concept/return/README.md)
       * [Sales Return](concept/stock-concept/return/sales-return.md)
       * [Purchase Return](concept/stock-concept/return/purchase-return.md)
+* [🛡 System Security](system-security/README.md)
+  * [System Logs & Debugging](system-security/system-logs-and-debugging.md)
+  * [Data Audit](system-security/data-audit.md)
