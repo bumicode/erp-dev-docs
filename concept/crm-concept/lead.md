@@ -21,34 +21,31 @@ description: Logika dan Relasi Lead
 * **Lead** dapat menjadi [**Opportunity**](opportunity.md).
 * **Lead** dapat menjadi [**Customer**](customer.md).
 * **Lead** memiliki 0 atau lebih [**Quotation**](../selling-concept/quotation.md)**.**
-* **Lead** memiliki 0 atau lebih [**Item**](../stock-concept/basic/item.md).&#x20;
 
 ### Relasi :
 
 * **Lead** belongs to a **Company**; **Company** has 0 to many **Leads.**
 * **Lead** belongs to a **Sales Partner**; **Sales Partner** has 0 to many **Leads.**&#x20;
-* **Lead** belongs to a **Sales Person**; **Sales Person** has 0 to many **Leads.**
-* **Lead** morph to many **Addressess**; **Address** morphed by Many **Leads**.\*
-* **Lead** morph to many **Contacts**; **Contact** morphed by Many **Leads**.\*
+* **Lead** belongs to a **Salesperson**; **Salesperson** has 0 to many **Leads.**
+* **Lead** morph to many **Addresses**; **Address** morphed by Many **Leads. \***
+* **Lead** morph to many **Contacts**; **Contact** morphed by Many **Leads. \***
 * **Lead** has 0 to one **Opportunity**; **Opportunity** belongs to a **Lead.**
 * **Lead** has 0 to one **Customer**; **Customer** belongs to a **Lead.**
 * **Lead** has 0 to many **Quotations**; **Quotation** belongs to **Lead.**
-* **Lead** morph to many **Itemables**; **Itemables** morphed to Many **Leads.**
 
 {% hint style="info" %}
-**Lead** dapat berubah menjadi **Opportunity** / **Customer**. Bukan berarti hanya statusnya saja yang berubah tapi menyalin datanya juga ke entitas **Opportunity** atau **Customer** sehingga pada relasi diatas "has 0 to one" yang artinya **Opportunity** / **Customer** dapat dimiliki **Lead**.
+**Lead** dapat berubah menjadi **Opportunity** / **Customer**. Bukan berarti hanya statusnya saja yang berubah tapi menyalin datanya juga ke entitas **Opportunity** atau **Customer** sehingga pada relasi di atas "has 0 to one" yang artinya **Opportunity** / **Customer** dapat dimiliki **Lead**.
 
 Ini dilakukan untuk memudahkan dalam pelaporan.
 {% endhint %}
 
 {% hint style="info" %}
-**Item** yang ada disini adalah daftar keinginan (wishlist) dan belum masuk ke transaksi.
+**Item** yang ada disini adalah daftar keinginan (wish list) dan belum masuk ke transaksi.
 {% endhint %}
 
 {% hint style="warning" %}
 **Note:** \*
 
-* **Addressable  :** Polymorphic ( Many To Many )
-* **Contactable :** Polymorphic ( Many To Many )&#x20;
-* **Itemable :** Polymorphic ( Many To Many )
+* **Addressable :** Polymorphic ( Many To Many )
+* **Contactable:** Polymorphic ( Many To Many )&#x20;
 {% endhint %}
