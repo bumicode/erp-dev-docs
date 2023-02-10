@@ -38,3 +38,7 @@ Setelah **Lead** menjadi **Customer** itu menandakan bahwa telah terjadinya tran
 
 **Item** yang asalnya hanyalah **wish list**, berpindah ke data item yang ada di **Sales Order.**&#x20;
 {% endhint %}
+
+### Table Structure
+
+[https://dbdocs.io/mohamadsyalvasr/bumicode\_erp?table=customers\&schema=selling\&view=table\_structure](https://dbdocs.io/mohamadsyalvasr/bumicode\_erp?table=customers\&schema=selling\&view=table\_structure)

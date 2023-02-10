@@ -17,3 +17,7 @@ description: Logika dan Relasi Lead Address
 
 * **Address** belongs to a **Company**; **Company** has 0 to many **Addresses.**
 * **Address** morphed by Many ([**Lead**](lead.md), [**Customer**](customer.md), **Supplier**, [**Sales Partner**](../selling-concept/sales-partner.md), [**Warehouse**](../stock-concept/basic/warehouse.md)); ([**Lead**](lead.md), [**Customer**](customer.md), **Supplier**, [**Sales Partner**](../selling-concept/sales-partner.md), [**Warehouse**](../stock-concept/basic/warehouse.md)) morph to many **Addresses.**
+
+### **Table Structure**
+
+[https://dbdocs.io/mohamadsyalvasr/bumicode\_erp?table=addresses\&schema=common\&view=table\_structure](https://dbdocs.io/mohamadsyalvasr/bumicode\_erp?table=addresses\&schema=common\&view=table\_structure)

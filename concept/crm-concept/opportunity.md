@@ -8,7 +8,7 @@ description: Logika dan Relasi Lead Opportunity
 
 **Opportunity** adalah prospek yang sudah dikenal dan memiliki potensi untuk menjadi pelanggan. **Opportunity** adalah langkah berikutnya setelah **Lead**, dan membutuhkan lebih banyak interaksi dan penjualan untuk memastikan bahwa mereka akan menjadi pelanggan aktif.
 
-### Logika :
+### Logika
 
 * **Opportunity** milik [**Company** ](../core-concept.md#company-perusahaan)(secara sistem).
 * **Opportunity** milik [**Sales Partner**](../selling-concept/sales-partner.md) (individu / company (B2B)).
@@ -20,7 +20,7 @@ description: Logika dan Relasi Lead Opportunity
 * **Opportunity** memiliki 0 atau lebih [**Quotation**](../selling-concept/quotation.md)**.**
 * **Opportunity** memiliki 0 atau lebih [**Sales Order**](../selling-concept/sales-order.md) **(Pesanan Penjualan)**.
 
-### Relasi :
+### Relasi
 
 * **Opportunity** belongs to a **Company**; **Company** has 0 to many **Opportunities.**
 * **Opportunity** belongs to a **Sales Partner**; **Sales Partner** has 0 to many **Opportunities.**
@@ -42,3 +42,7 @@ description: Logika dan Relasi Lead Opportunity
 * **Addressable :** Polymorphic ( Many To Many )
 * **Contactable :** Polymorphic ( Many To Many )&#x20;
 {% endhint %}
+
+### Table Structure
+
+[https://dbdocs.io/mohamadsyalvasr/bumicode\_erp?table=opportunity\&schema=crm\&view=table\_structure](https://dbdocs.io/mohamadsyalvasr/bumicode\_erp?table=opportunity\&schema=crm\&view=table\_structure)

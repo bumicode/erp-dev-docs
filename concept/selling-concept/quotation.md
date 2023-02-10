@@ -2,7 +2,7 @@
 
 **Quotation** adalah surat penawaran yang diberikan kepada pelanggan setelah adanya permintaan (B2B).
 
-### Logika :&#x20;
+### Logika&#x20;
 
 * **Quotation** milik [**Company**](../core-concept.md#company-perusahaan)****
 * **Quotation** milik [**Sales Partner**](sales-partner.md)****
@@ -15,7 +15,7 @@
 * **Quotation** memiliki 0 atau lebih **Tax**
 * **Quotation** memiliki 0 atau lebih **Charge**
 
-### Relasi : &#x20;
+### Relasi &#x20;
 
 * **Quotation** belongs to a **Company**; **Company** has 0 to many **Quotations.**
 * **Quotation** belongs to a **Sales Partner**; **Sales Partner** has 0 to many **Quotations.**&#x20;
@@ -26,3 +26,7 @@
 * **Quotation** morph to many **Itemables**; **Itemables** morphed to Many **Leads.**
 * **Quotation** morph to many **Taxable; Taxable** morphed to Many **Quotations**
 * **Quotation** morph to many **Chargeable**; **Chargeable** morphed to Many **Quotations**
+
+### **Table Structure**
+
+[https://dbdocs.io/mohamadsyalvasr/bumicode\_erp?table=quotations\&schema=selling\&view=table\_structure](https://dbdocs.io/mohamadsyalvasr/bumicode\_erp?table=quotations\&schema=selling\&view=table\_structure)

@@ -11,7 +11,7 @@ description: Logika dan Relasi Lead
 * **Opportunity** (Peluang)
 * **Customer** (Pelanggan)
 
-### Logika :
+### Logika
 
 * **Lead** milik [**Company** ](../core-concept.md#company-perusahaan)(secara sistem).
 * **Lead** milik [**Sales Partner**](../selling-concept/sales-partner.md) **** (secara individu).&#x20;
@@ -22,7 +22,7 @@ description: Logika dan Relasi Lead
 * **Lead** dapat menjadi [**Customer**](customer.md).
 * **Lead** memiliki 0 atau lebih [**Quotation**](../selling-concept/quotation.md)**.**
 
-### Relasi :
+### Relasi
 
 * **Lead** belongs to a **Company**; **Company** has 0 to many **Leads.**
 * **Lead** belongs to a **Sales Partner**; **Sales Partner** has 0 to many **Leads.**&#x20;
@@ -49,3 +49,7 @@ Ini dilakukan untuk memudahkan dalam pelaporan.
 * **Addressable :** Polymorphic ( Many To Many )
 * **Contactable:** Polymorphic ( Many To Many )&#x20;
 {% endhint %}
+
+### **Table Structure**
+
+[https://dbdocs.io/mohamadsyalvasr/bumicode\_erp?table=leads\&schema=crm\&view=table\_structure](https://dbdocs.io/mohamadsyalvasr/bumicode\_erp?table=leads\&schema=crm\&view=table\_structure)
