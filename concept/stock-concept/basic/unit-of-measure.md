@@ -26,5 +26,5 @@ Selain daftar di atas pengguna dapat menambahkan UOM sesuai dengan yang dibutuhk
 
 ### Relasi
 
-* **UOM** belongs to a **Company**; **Company** has 0 to many **UOM.**
+* **UOM** belongs to a **Company**; **Company** has 0 to many **UOMs.**
 * **UOM** many to many **Items;** **Item** many to many **UOMs.**
