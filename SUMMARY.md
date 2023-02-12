@@ -1,7 +1,10 @@
 # Table of contents
 
-* [👨💻 Welcome](README.md)
-* [🤓 Konsep](concept/README.md)
+* [ℹ Welcome](README.md)
+  * [Pengantar](readme/pengantar.md)
+  * [Alur Aplikasi](readme/alur-aplikasi.md)
+* [📍 Getting Started](getting-started.md)
+* [📘 Konsep](concept/README.md)
   * [Core Concept](concept/core-concept.md)
   * [Account Concept](concept/account-concept.md)
   * [CRM Concept](concept/crm-concept.md)
