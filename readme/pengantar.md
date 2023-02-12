@@ -8,4 +8,6 @@ Dengan lisensi open source, kami berharap dapat bekerja sama dengan para develop
 
 Untuk para developer, kami mengajak Anda untuk bergabung dan ikut mengembangkan aplikasi ini bersama-sama. Kami yakin bahwa dengan keahlian dan kreativitas Anda, kami dapat bersama-sama membuat aplikasi ini menjadi lebih baik dan berguna bagi masyarakat.
 
-Salam, Tim BUMICODE.
+Salam,
+
+Tim BUMICODE.
