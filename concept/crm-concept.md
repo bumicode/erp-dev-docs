@@ -1,3 +1,3 @@
-# 🟠 CRM Concept
+# CRM Concept
 
 ****
