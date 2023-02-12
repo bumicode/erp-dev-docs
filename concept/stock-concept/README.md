@@ -1,2 +1,2 @@
-# Stock Concept
+# 🟠 Stock Concept
 
