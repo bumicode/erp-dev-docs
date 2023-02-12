@@ -49,6 +49,6 @@
     * [Return](concept/stock-concept/return/README.md)
       * [Sales Return](concept/stock-concept/return/sales-return.md)
       * [Purchase Return](concept/stock-concept/return/purchase-return.md)
-* [📋 System Data Audit](system-data-audit.md)
+* [📋 Audit Record](audit-record.md)
 * [🛡 System Security](system-security/README.md)
   * [System Logs & Debugging](system-security/system-logs-and-debugging.md)

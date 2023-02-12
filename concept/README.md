@@ -4,5 +4,5 @@ description: >-
   pada ERP
 ---
 
-# 🤓 Konsep
+# 📘 Konsep
 
