@@ -3,10 +3,11 @@
 | Name                                                          | Status | Last Update |
 | ------------------------------------------------------------- | ------ | ----------- |
 | **Basic**                                                     |        |             |
+| => [Brand](basic/brand.md)                                    |        |             |
 | => [Item Group](basic/item-group.md)                          | 99%    |             |
 | => [Warehouse](basic/warehouse.md)                            | 99%    |             |
 | => [Unit of Measure (UoM)](basic/unit-of-measure.md)          | 99%    |             |
-| => [Item](basic/item.md)                                      | 95%    |             |
+| => [Item](basic/item.md)                                      | 90%    |             |
 | => [Item Manufacturer](basic/item-manufacturer.md)            |        |             |
 | => [Item Price](basic/item-price.md)                          |        |             |
 | => [Price Lists](basic/price-lists.md)                        |        |             |

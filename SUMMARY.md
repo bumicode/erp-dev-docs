@@ -29,6 +29,7 @@
     * [Territory](concept/selling-concept/territory.md)
   * [Stock Concept](concept/stock-concept/README.md)
     * [Basic](concept/stock-concept/basic/README.md)
+      * [Brand](concept/stock-concept/basic/brand.md)
       * [Item Group](concept/stock-concept/basic/item-group.md)
       * [Warehouse](concept/stock-concept/basic/warehouse.md)
       * [Unit of Measure](concept/stock-concept/basic/unit-of-measure.md)
