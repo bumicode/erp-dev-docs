@@ -1,5 +1,7 @@
 # Item
 
+## Item
+
 **Item** adalah barang atau jasa yang dijual atau dibeli oleh perusahaan. Bisa juga item adalah bahan untuk manufacture dan juga bahan untuk pack.
 
 ### Logika
