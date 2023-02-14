@@ -8,6 +8,7 @@
 * [Laravel ](https://laravel.com/docs/10.x)=> ^10.x&#x20;
 * [PostgreSQL](https://www.postgresql.org/)
 * [Redis](https://redis.io/)
+* [Node.js](https://nodejs.org/en/download/)
 
 ### PHP Extension Requirements
 
@@ -36,11 +37,11 @@ git clone https://github.com/bumicode/erp.git erp
 * Copy **.env.example** menjadi **.env**
 * Update isi dari **.env** pada pengaturan database menjadi
 
-<pre class="language-bash" data-title=".env" data-overflow="wrap"><code class="lang-bash"><strong>...
-</strong><strong>DB_CONNECTION=pgsql
+<pre class="language-bash" data-title=".env" data-overflow="wrap"><code class="lang-bash">...
+<strong>DB_CONNECTION=pgsql
 </strong>DB_HOST=127.0.0.1 
-DB_PORT=5432
-DB_DATABASE=laravel // Sesuaikan dengan database yang digunakan
+<strong>DB_PORT=5432
+</strong>DB_DATABASE=laravel // Sesuaikan dengan database yang digunakan
 DB_USERNAME=root // Sesuaikan dengan username database
 DB_PASSWORD=     // Sesuaikan dengan password database
 ...
@@ -56,6 +57,13 @@ php artisan migrate
 
 * Run Laravel
 
-```
+```bash
 php artisan serve
+```
+
+\[Opsional] Vite
+
+```bash
+npm install
+npm run dev
 ```
