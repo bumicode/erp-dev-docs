@@ -37,3 +37,7 @@
 * **Item** belongs to many **Product Bundles; Product Bundle** belong to many **Items.**
 * **Item** belongs to many **Suppliers; Supplier** belongs to many **Items.**
 * **Item** has many **Common** (**Images, Attachments, Comments, Tags**); **Common** (**Images, Attachments, Comments, Tags**) belongs to **Item.**
+
+{% hint style="warning" %}
+Jika **Item** memiliki **Item Variants** maka **Item induk** tersebut tidak dapat masuk ke dalam data penjualan ataupun pembelian.
+{% endhint %}
