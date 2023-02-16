@@ -8,8 +8,10 @@
 
 * **Item Price** milik [**Company**](../../core-concept.md#company-perusahaan)**.**
 * **Item Price** milik **Price Lists.**
+* **Item Price** milik **Item.**
 
 ### Relasi
 
 * **Item Price** belongs to a **Company**; **Company** has 0 to many **Item Price.**
 * **Item Price** belongs to a **Price Lists; Price Lists** has 0 to many **Item Price.**
+* **Item Price** belongs to a **Item; Item** has 1 to many **Item Price.**
