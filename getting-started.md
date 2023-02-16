@@ -5,7 +5,6 @@
 * [Git](https://git-scm.com/)
 * [PHP](https://php.net/) => ^8.1
 * [Composer](https://getcomposer.org/)
-* [Laravel ](https://laravel.com/docs/10.x)=> ^10.x&#x20;
 * [PostgreSQL](https://www.postgresql.org/)
 * [Redis](https://redis.io/)
 * [Node.js](https://nodejs.org/en/download/)
@@ -35,6 +34,11 @@ git clone https://github.com/bumicode/erp.git erp
 ```
 
 * Copy **.env.example** menjadi **.env**
+
+```bash
+cp .env.example .env
+```
+
 * Update isi dari **.env** pada pengaturan database menjadi
 
 <pre class="language-bash" data-title=".env" data-overflow="wrap"><code class="lang-bash">...

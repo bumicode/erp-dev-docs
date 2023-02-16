@@ -8,7 +8,11 @@ Material Request adalah permintaan bahan atau barang tertentu yang diajukan oleh
 
 * **Material Request** milik **Company**
 * **Material Request** memiliki 1 atau lebih **Item**
-* **Material Request** bisa menjadi referensi dari (**Sales Order**, **Request for Quotation**, **Supplier Quotation**, **Purchase Order**). Contoh: ketika ada **Sales Order** tapi stock tidak mencukupi, maka akan membuat **Material Request** pada **Supplier.**
+* **Material Request** bisa menjadi referensi dari (**Sales Order**, **Request for Quotation**, **Supplier Quotation**, **Purchase Order**). Contoh: ketika ada **Sales Order** tapi stock tidak mencukupi, maka akan membuat **Material Request** yang kemudian **Material Request** dapat di konversi menjadi **Purchase Order.**
 
 ### Relasi
+
+* **Material Request** belongs to a **Company**; **Company** has 0 to many **Material Request**.
+* **Material Request** has many **Items; Item** belongs to many **Material Requests.**
+* &#x20;
 

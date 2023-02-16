@@ -1,5 +1,9 @@
 # Core Concept
 
+{% hint style="info" %}
+****[**Discussion of This Concept**](https://github.com/bumicode/erp-dev-docs/discussions?discussions\_q=label%3A%22Core+Module%22+)****
+{% endhint %}
+
 ## Company (Perusahaan)
 
 **Company** adalah pemilik ERP ( tidak merepresentasikan sebagai individu ). **Company** berelasi dengan semua entitas yang ada pada ERP.
