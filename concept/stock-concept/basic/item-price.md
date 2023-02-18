@@ -7,11 +7,20 @@
 ### Logika
 
 * **Item Price** milik [**Company**](../../core-concept.md#company-perusahaan)**.**
-* **Item Price** milik **Price Lists.**
-* **Item Price** milik **Item.**
+* **Item Price** milik [**Price Lists**](price-lists.md)**.**
+* **Item Price** milik [**Item**](item.md)**.**
+* **Item Price** milik **Customer / Supplier. \***
 
 ### Relasi
 
 * **Item Price** belongs to a **Company**; **Company** has 0 to many **Item Price.**
 * **Item Price** belongs to a **Price Lists; Price Lists** has 0 to many **Item Price.**
 * **Item Price** belongs to a **Item; Item** has 1 to many **Item Price.**
+* **Item Price** morph to one **Customers**; **Customer** morphed by one **Item Price. \***
+* **Item Price** morph to one **Suppliers**; **Supplier** morphed by one **Item Price. \***
+
+{% hint style="warning" %}
+**Note:** \*
+
+* **Priceable:** Polymorphic (Many To Many)
+{% endhint %}

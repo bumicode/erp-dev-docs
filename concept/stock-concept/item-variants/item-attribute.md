@@ -9,9 +9,28 @@ Contoh, produk "Sepatu" mungkin memiliki beberapa atribut seperti ukuran, warna,
 ### Logika
 
 * **Item Attribute** milik **Company**
-* **Item Attribute** dimiliki 0 atau lebih **Item**
+* **Item Attribute** bisa di tambahkan ke **Item**
 
 ### Relasi
 
 * **Item Attribute** belongs to a **Company; Company** has 0 to many **Item Attributes.**
-* **Item Attribute** belongs to many **Items; Item** has 0 to many **Item Attributes.**
+
+{% hint style="info" %}
+**Item Attribute** hanyalah sebagai **Data** yang tidak berelasi dengan **Item** secara langsung
+{% endhint %}
+
+<pre class="language-json"><code class="lang-json">// Misalnya ada Item Attribute seperti berikut ini
+    warna: ['RED', 'BLUE', 'GREEN']
+    ukuran: ['22', '23', '24']
+    
+// Item hanya menambahkan data seperti berikut
+{  
+    "item": {  
+        "name":"Product A-RED-22",      
+<strong>        "attribute": {
+</strong><strong>            "warna":     "RED",
+</strong><strong>            "ukuran":    22
+</strong>        }
+    }  
+}  
+</code></pre>

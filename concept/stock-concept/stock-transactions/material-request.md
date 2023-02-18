@@ -6,13 +6,14 @@ Material Request adalah permintaan bahan atau barang tertentu yang diajukan oleh
 
 ### Logika
 
-* **Material Request** milik **Company**
-* **Material Request** memiliki 1 atau lebih **Item**
-* **Material Request** bisa menjadi referensi dari (**Sales Order**, **Request for Quotation**, **Supplier Quotation**, **Purchase Order**). Contoh: ketika ada **Sales Order** tapi stock tidak mencukupi, maka akan membuat **Material Request** yang kemudian **Material Request** dapat di konversi menjadi **Purchase Order.**
+* **Material Request** milik [**Company**](../../core-concept.md#company-perusahaan)****
+* **Material Request** memiliki 1 atau lebih [**Item**](../basic/item.md)****
+* **Material Request** bisa menjadi referensi dari ([**Sales Order**](../../selling-concept/sales-order.md), [**Request for Quotation**](../../buying-concept/request-for-quotation.md), [**Supplier Quotation**](../../buying-concept/supplier-quotation.md), [**Purchase Order**](../../buying-concept/purchase-order.md)). Contoh: ketika ada **Sales Order** tapi stock tidak mencukupi, maka akan membuat **Material Request** yang kemudian **Material Request** dapat di konversi menjadi **Purchase Order.**
 
 ### Relasi
 
 * **Material Request** belongs to a **Company**; **Company** has 0 to many **Material Request**.
 * **Material Request** has many **Items; Item** belongs to many **Material Requests.**
-* &#x20;
+* **Material Request** belongs to a **Sales Order; Sales Order** has one **Material Request.**
+* **Material Request** has one **Purchase Order; Purchase Order** belongs to a **Material Request.**
 

@@ -29,15 +29,15 @@
 * **Item** belongs to many **Stock Transactions (**[**Material Request**](../stock-transactions/material-request.md)**,** [**Stock Entry**](../stock-transactions/stock-entry.md)**,** [**Purchase Receipt**](../stock-transactions/purchase-receipt.md)**,** [**Delivery Note**](../stock-transactions/delivery-note.md)**,** [**Packing Slip**](../stock-transactions/packing-slip.md)**,** [**Shipment**](../stock-transactions/shipment.md)**,** [**Pick List**](../stock-transactions/pick-list.md)**); Stock Transactions (**[**Material Request**](../stock-transactions/material-request.md)**,** [**Stock Entry**](../stock-transactions/stock-entry.md)**,** [**Purchase Receipt**](../stock-transactions/purchase-receipt.md)**,** [**Delivery Note**](../stock-transactions/delivery-note.md)**,** [**Packing Slip**](../stock-transactions/packing-slip.md)**,** [**Shipment**](../stock-transactions/shipment.md)**,** [**Pick List**](../stock-transactions/pick-list.md)**)** has 0 to many **Items.**
 * **Item** belongs to many **UOM; UOM** belongs to many **Items.**
 * **Item** belongs to **Item Group; Item Group** has 0 to many **Items**.
-* **Item** has many **Item Prices; Item Price** belongs to a **Item.**
-* **Item** has many **Item Attributes; Item Attribute** belongs to a **Item.**
-* **Item** has many **Item Variants; Item Variant** belongs to a **Item.**
+* **Item** has many **Item Prices; Item Price** belongs to an **Item.**
+* **Item** has many **Item Attributes; Item Attribute** belongs to an **Item.**
+* **Item** has many **Item Variants; Item Variant** belongs to an **Item.**
 * **Item** belongs to a **Warehouse; Warehouse** has 0 to many **Items.**
-* **Item** has many **Stocks; Stock** belongs to **Item.**
+* **Item** has many **Stocks; Stock** belongs to an **Item.**
 * **Item** belongs to many **Product Bundles; Product Bundle** belong to many **Items.**
 * **Item** belongs to many **Suppliers; Supplier** belongs to many **Items.**
 * **Item** has many **Common** (**Images, Attachments, Comments, Tags**); **Common** (**Images, Attachments, Comments, Tags**) belongs to **Item.**
 
 {% hint style="warning" %}
-Jika **Item** memiliki **Item Variants** maka **Item induk** tersebut tidak dapat masuk ke dalam data penjualan ataupun pembelian.
+Jika **Item** memiliki **Item Variants** maka **Item induk** tersebut tidak dapat ditambahkan pada data penjualan ataupun pembelian.
 {% endhint %}
