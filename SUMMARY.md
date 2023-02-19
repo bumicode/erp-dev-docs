@@ -6,7 +6,7 @@
 * [📍 Getting Started](getting-started.md)
 * [📘 Konsep](concept/README.md)
   * [Core Concept](concept/core-concept.md)
-  * [Account Concept](concept/account-concept/README.md)
+  * [Account Concept](concept/account-concept.md)
     * [Chart of Accounts](concept/account-concept/chart-of-accounts.md)
   * [Buying Concept](concept/buying-concept/README.md)
     * [Purchase Order](concept/buying-concept/purchase-order.md)
