@@ -10,6 +10,7 @@
 * **Warehouse** memiliki satu atau lebih [**Contact** ](../../crm-concept/contact.md)**(Kontak)**.
 * **Warehouse** memiliki satu atau lebih [**Address** ](../../crm-concept/address.md)**(Alamat)**.
 * **Warehouse** memiliki 0 atau lebih [**Item**](item.md)****
+* **Warehouse** memiliki satu [**Account**](../../account-concept.md) **(type Stock)**
 
 ### Relasi
 
@@ -17,6 +18,7 @@
 * **Warehouse** morph to many **Addressess**; **Address** morphed by Many **Warehouse**.\*
 * **Warehouse** morph to many **Contacts**; **Contact** morphed by Many **Warehouse**.\*
 * **Warehouse** has 0 to many **Items**; **Item** belongs to **Warehouse**.
+* **Warehouse** has one **Account; Account** belongs to **Stock.**
 
 {% hint style="warning" %}
 **Note:** \*

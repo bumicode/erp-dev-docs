@@ -23,7 +23,7 @@
 * **Quotation** morph to many **Addressess**; **Address** morphed by Many **Quotations**.\*
 * **Quotation** morph to many **Contacts**; **Contact** morphed by Many **Quotations**.\*
 * **Quotation** belongs to a **Opportunity**; **Opportunity** has 0 to many **Quotations.**
-* **Quotation** morph to many **Itemables**; **Itemables** morphed to Many **Leads.**
+* **Quotation** morph to many **Itemables**; **Itemables** morphed to Many **Quotation .**
 * **Quotation** morph to many **Taxable; Taxable** morphed to Many **Quotations**
 * **Quotation** morph to many **Chargeable**; **Chargeable** morphed to Many **Quotations**
 
