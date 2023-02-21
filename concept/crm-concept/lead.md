@@ -13,7 +13,7 @@ description: Logika dan Relasi Lead
 
 ### Logika
 
-* **Lead** milik [**Company** ](../core-concept.md#company-perusahaan)(secara sistem).
+* **Lead** milik [**Company** ](../core-concept/#company-perusahaan)(secara sistem).
 * **Lead** milik [**Sales Partner**](../selling-concept/sales-partner.md) **** (secara individu).&#x20;
 * **Lead** milik **Salesperson** (secara individu).
 * **Lead** memiliki satu atau lebih [**Address (Alamat)**](address.md).

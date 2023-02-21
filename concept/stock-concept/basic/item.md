@@ -6,7 +6,7 @@
 
 ### Logika
 
-* **Item** milik [**Company** ](../../core-concept.md#company-perusahaan)(secara sistem).
+* **Item** milik [**Company** ](../../core-concept/#company-perusahaan)(secara sistem).
 * **Item** milik 0 atau lebih **Selling (**[**Quotation**](../../selling-concept/quotation.md), [**Sales Order**](../../selling-concept/sales-order.md), [**Sales Invoice**](../../selling-concept/sales-invoice.md), [**Blanked Order**](../../selling-concept/blanked-order.md)**).**
 * **Item** milik 0 atau lebih **Buying (**[**Purchase Order**](../../buying-concept/purchase-order.md)**,** [**Purchase Invoice**](../../buying-concept/purchase-invoice.md)**,** [**Request for Quotation**](../../buying-concept/request-for-quotation.md)**,**[ **Supplier Quotation**](../../buying-concept/supplier-quotation.md)**).**
 * **Item** milik 0 atau lebih **Stock Transactions (**[**Material Request**](../stock-transactions/material-request.md)**,** [**Stock Entry**](../stock-transactions/stock-entry.md)**,** [**Purchase Receipt**](../stock-transactions/purchase-receipt.md)**,** [**Delivery Note**](../stock-transactions/delivery-note.md)**,** [**Packing Slip**](../stock-transactions/packing-slip.md)**,** [**Shipment**](../stock-transactions/shipment.md)**,** [**Pick List**](../stock-transactions/pick-list.md)**)**

@@ -23,7 +23,7 @@ Selain daftar di atas pengguna dapat menambahkan UOM sesuai dengan yang dibutuhk
 
 ### Logika
 
-* **UOM** milik [**Company**](../../core-concept.md#company-perusahaan)
+* **UOM** milik [**Company**](../../core-concept/#company-perusahaan)
 * **UOM** memiliki dan dimiliki oleh 0 atau lebih [**Items**](item.md)**.**
 * **UOM** memiliki 1 atau lebih **UOM Conversion Factors.**
 
@@ -43,7 +43,7 @@ Penggunaan UOM Conversion Factor sangat penting dalam aplikasi bisnis seperti ma
 
 ### Logika
 
-* **UOM Conversion Factor** milik [**Company**](../../core-concept.md#company-perusahaan)
+* **UOM Conversion Factor** milik [**Company**](../../core-concept/#company-perusahaan)
 * **UOM Conversion Factor** milik dan memiliki **UOM.**
 
 ### Relasi

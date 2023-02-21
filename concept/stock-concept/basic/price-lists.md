@@ -8,7 +8,7 @@ ERP dapat menambahkan lebih dari satu [**Item Price**](item-price.md) tergantung
 
 ### Logika
 
-* **Price Lists** milik [**Company** ](../../core-concept.md#company-perusahaan)(secara sistem).
+* **Price Lists** milik [**Company** ](../../core-concept/#company-perusahaan)(secara sistem).
 * **Price Lists** memiliki 0 atau lebih [**Item Price**](item-price.md)**.**
 
 ### Relasi

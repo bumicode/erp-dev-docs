@@ -12,7 +12,7 @@ Dalam hal _stock_, informasi tentang brand juga penting untuk memantau stok prod
 
 ### Logika
 
-* **Brand** milik [**Company** ](../../core-concept.md#company-perusahaan)(secara sistem).
+* **Brand** milik [**Company** ](../../core-concept/#company-perusahaan)(secara sistem).
 * **Brand** memiliki 0 atau lebih [**Item**](item.md)**.**
 
 ### Relasi

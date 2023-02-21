@@ -6,7 +6,7 @@
 
 ### Logika
 
-* **Item Price** milik [**Company**](../../core-concept.md#company-perusahaan)**.**
+* **Item Price** milik [**Company**](../../core-concept/#company-perusahaan)**.**
 * **Item Price** milik [**Price Lists**](price-lists.md)**.**
 * **Item Price** milik [**Item**](item.md)**.**
 * **Item Price** milik **Customer / Supplier. \***

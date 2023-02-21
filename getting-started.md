@@ -4,9 +4,9 @@
 
 * [Git](https://git-scm.com/)
 * [PHP](https://php.net/) => ^8.1
-* [Composer](https://getcomposer.org/)
-* [PostgreSQL](https://www.postgresql.org/)
-* [Redis](https://redis.io/)
+* [Composer](https://getcomposer.org/) => ^2.5.4
+* [PostgreSQL](https://www.postgresql.org/) => ^15.2
+* [Redis](https://redis.io/) => ^7.0
 * [Node.js](https://nodejs.org/en/download/)
 
 ### PHP Extension Requirements
@@ -65,7 +65,7 @@ php artisan migrate
 php artisan serve
 ```
 
-\[Opsional] Vite
+\[Opsional] Vite.js
 
 ```bash
 npm install

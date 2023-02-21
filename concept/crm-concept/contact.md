@@ -11,12 +11,12 @@ description: Logika dan Relasi Lead Contact
 ### **Logika**
 
 * **Contact** milik **Company** (secara sistem)
-* **Contact** dapat dikaitkan dengan [**Lead**](lead.md), [**Customer**](customer.md), **Supplier**, [**Sales Partner**](../selling-concept/sales-partner.md), atau [**User**](../core-concept.md#user-pengguna).
+* **Contact** dapat dikaitkan dengan [**Lead**](lead.md), [**Customer**](customer.md), **Supplier**, [**Sales Partner**](../selling-concept/sales-partner.md), atau [**User**](../core-concept/#user-pengguna).
 
 ### Relasi
 
 * **Contact** belongs to a **Company**; **Company** has 0 to many **Contacts.**
-* **Contact** morphed by Many ([**Lead**](lead.md), [**Customer**](customer.md), **Supplier**, [**Sales Partner**](../selling-concept/sales-partner.md), [**User**](../core-concept.md#user-pengguna)). ; ([**Lead**](lead.md), [**Customer**](customer.md), **Supplier**, [**Sales Partner**](../selling-concept/sales-partner.md), [**User**](../core-concept.md#user-pengguna)) morph to many **Contacts**
+* **Contact** morphed by Many ([**Lead**](lead.md), [**Customer**](customer.md), **Supplier**, [**Sales Partner**](../selling-concept/sales-partner.md), [**User**](../core-concept/#user-pengguna)). ; ([**Lead**](lead.md), [**Customer**](customer.md), **Supplier**, [**Sales Partner**](../selling-concept/sales-partner.md), [**User**](../core-concept/#user-pengguna)) morph to many **Contacts**
 
 ### Table Structure
 

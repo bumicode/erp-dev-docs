@@ -8,7 +8,7 @@ Dengan menggunakan **Item Group**, perusahaan dapat memantau dan mengendalikan s
 
 ### Logika
 
-* **Item Group** milik [**Company** ](../../core-concept.md#company-perusahaan)(secara sistem).
+* **Item Group** milik [**Company** ](../../core-concept/#company-perusahaan)(secara sistem).
 * **Item Group** memiliki 0 atau lebih [**Item**](item.md)**.**
 
 ### Relasi

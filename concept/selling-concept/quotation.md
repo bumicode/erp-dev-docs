@@ -4,7 +4,7 @@
 
 ### Logika&#x20;
 
-* **Quotation** milik [**Company**](../core-concept.md#company-perusahaan)****
+* **Quotation** milik [**Company**](../core-concept/#company-perusahaan)****
 * **Quotation** milik [**Sales Partner**](sales-partner.md)****
 * **Quotation** milik **Sales Person**
 * **Quotation** dapat dikaitkan dengan [**Opportunity**](../crm-concept/opportunity.md)****

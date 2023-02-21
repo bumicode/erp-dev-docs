@@ -10,7 +10,7 @@ description: Logika dan Relasi Lead Customer
 
 ### Logika:
 
-* **Customer** milik [**Company** ](../core-concept.md#company-perusahaan)(secara sistem).
+* **Customer** milik [**Company** ](../core-concept/#company-perusahaan)(secara sistem).
 * **Customer** milik [**Sales Partner**](../selling-concept/sales-partner.md) (individu / company (B2B)).
 * **Customer** milik **Salesperson** (secara individu).
 * **Customer** dapat dikaitkan dengan [**Lead**](lead.md).

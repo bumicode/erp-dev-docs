@@ -6,7 +6,7 @@
 
 ### Logika&#x20;
 
-* **Sales Order** milik [**Company**](../core-concept.md#company-perusahaan)****
+* **Sales Order** milik [**Company**](../core-concept/#company-perusahaan)****
 * **Sales Order** milik [**Sales Partner**](sales-partner.md)****
 * **Sales Order** milik **Salesperson**
 * **Sales Order** dapat dikaitkan dengan **Quotation**
