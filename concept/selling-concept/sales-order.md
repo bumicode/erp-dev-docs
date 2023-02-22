@@ -16,13 +16,14 @@
 * **Sales Order** memiliki satu [**Contact** ](../crm-concept/contact.md)**(Kontak)**.
 * **Sales Order** memiliki 0 atau lebih **Tax**
 * **Sales Order** memiliki 0 atau lebih **Charge**
+* **Sales Order** dapat membuat beberapa Dokumen lain seperti (**Payment, Sales Invoice, Delivery Note, Material Request, Purchase Order)** tergantung keadaan yang ada dan **Sales Order** dijadikan sebagai referensi dari dokumen baru.
 
 ### Relasi &#x20;
 
 * **Sales Order** belongs to a **Company**; **Company** has 0 to many **Sales Order.**
 * **Sales Order** belongs to a **Sales Partner**; **Sales Partner** has 0 to many **Sales Order.**&#x20;
 * **Sales Order** belongs to a **Salesperson**; **Salesperson** has 0 to many **Sales Order.**
-* **Sales Order** morph to many **Addresses**; **Address** morphed by Many **Sales Order**.\*
+* **Sales Order** morph to many **Addresses**; **Address** morphed by Many **Sales Order. \***&#x20;
 * **Sales Order** morph to many **Contacts**; **Contact** morphed by Many **Sales Order. \***
 * **Sales Order** belongs to an **Opportunity**; **Opportunity** has 0 to many **Sales Order.**
 * **Sales Order** morph to many **Itemables**; **Itemables** morphed to Many **Sales Order.**

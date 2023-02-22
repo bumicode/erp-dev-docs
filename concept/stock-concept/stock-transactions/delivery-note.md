@@ -15,3 +15,10 @@ Pada dasarnya, Delivery Note adalah dokumen penting dalam logistik dan manajemen
 
 * **Delivery Note** belongs to a **Company; Company** has many **Delivery Notes.**
 * **Delivery Note** belongs to a **Sales Order; Sales Order** has one **Delivery Note.**
+
+### Akuntansi
+
+#### Jika sudah dikirim
+
+* **Debit :** Akun HPP Pembelian
+* **Credit :** Akun Persediaan Barang ****&#x20;
