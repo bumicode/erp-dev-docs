@@ -6,6 +6,10 @@
 
 **Sales Order** adalah dokumen yang digunakan untuk merekam pesanan yang diterima dari pelanggan untuk membeli produk atau jasa.
 
+## Logika dan Relasi
+
+<figure><img src="../../.gitbook/assets/salesorder.drawio.svg" alt=""><figcaption></figcaption></figure>
+
 ### Logika&#x20;
 
 * **Sales Order** milik [**Company**](../core-concept/#company-perusahaan)****
