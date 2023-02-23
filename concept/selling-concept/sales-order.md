@@ -1,5 +1,7 @@
 # Sales Order
 
+<figure><img src="../../.gitbook/assets/erp2.drawio.svg" alt=""><figcaption></figcaption></figure>
+
 ## Sales Order
 
 **Sales Order** adalah dokumen yang digunakan untuk merekam pesanan yang diterima dari pelanggan untuk membeli produk atau jasa.

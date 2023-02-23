@@ -1,5 +1,9 @@
 # Quotation
 
+<figure><img src="../../.gitbook/assets/erp2.drawio.svg" alt=""><figcaption></figcaption></figure>
+
+## Quotation
+
 **Quotation** adalah surat penawaran yang diberikan kepada pelanggan setelah adanya permintaan (B2B).
 
 ### Logika&#x20;

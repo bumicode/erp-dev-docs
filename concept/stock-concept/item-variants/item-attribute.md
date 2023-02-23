@@ -16,20 +16,31 @@ Contoh, produk "Sepatu" mungkin memiliki beberapa atribut seperti ukuran, warna,
 * **Item Attribute** belongs to a **Company; Company** has 0 to many **Item Attributes.**
 
 {% hint style="info" %}
-**Item Attribute** hanyalah sebagai **Data** yang tidak berelasi dengan **Item** secara langsung
+**Item Attribute** hanyalah **Data** yang tidak berelasi dengan **Item** secara langsung
 {% endhint %}
 
 <pre class="language-json"><code class="lang-json">// Misalnya ada Item Attribute seperti berikut ini
     warna: ['RED', 'BLUE', 'GREEN']
     ukuran: ['22', '23', '24']
     
-// Item hanya menambahkan data seperti berikut
+// Item hanya menambahkan data key saja seperti berikut
 {  
     "item": {  
-        "name":"Product A-RED-22",      
-<strong>        "attribute": {
-</strong><strong>            "warna":     "RED",
-</strong><strong>            "ukuran":    22
+        "name":"Product A",      
+        "attribute": {
+<strong>            "warna": "",
+</strong><strong>            "ukuran": ""
+</strong>        }
+    }  
+} 
+
+// Item Variant menambahkan data value seperti berikut
+{  
+    "item": {  
+<strong>        "name":"Product A-RED-22",      
+</strong>        "attribute": {
+<strong>            "warna": "RED",
+</strong><strong>            "ukuran": 22
 </strong>        }
     }  
 }  
