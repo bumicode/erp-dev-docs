@@ -1,7 +1,3 @@
----
-layout: landing
----
-
 # Selling Concept
 
 {% hint style="info" %}
