@@ -20,7 +20,7 @@ Sales Invoice juga berfungsi sebagai bukti pembayaran yang sah bagi pembeli sehi
 
 * **Debit:** Piutang Lain-lain (Total yang akan dibayar oleh Customer)
 * **Credit:** Akun Default untuk Item (Total harga Item yang dibeli oleh Customer)
-* **Credit:** Akun sesuai dengan tipe transaksinya misalnya PPN masuk ke dalam Akun PPN.
+* **Credit:** Biaya Lain-lain contohnya seperti Biaya Ongkos Kirim / PPN. Dan akun sesuai dengan tipenya misal PPN masuk ke dalam Akun PPN.
 
 **Jika sudah dibayar**
 
