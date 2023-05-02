@@ -15,5 +15,5 @@
 3. Dapat Menghapus Data Milik Orang Lain (can delete other people's data)
 
 \
-Atau dapat menggunakan [**Login as Another User**](https://stackoverflow.com/questions/45705087/laravel-login-as-another-user) **** dengan menambahkan kondisi permission "can login as another user"
+Atau dapat menggunakan [**Login as Another User**](https://stackoverflow.com/questions/45705087/laravel-login-as-another-user) dengan menambahkan kondisi permission "can login as another user"
 {% endhint %}

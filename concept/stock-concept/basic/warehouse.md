@@ -9,7 +9,7 @@
 * **Warehouse** milik [**Company** ](../../core-concept/#company-perusahaan)(secara sistem).
 * **Warehouse** memiliki satu atau lebih [**Contact** ](../../crm-concept/contact.md)**(Kontak)**.
 * **Warehouse** memiliki satu atau lebih [**Address** ](../../crm-concept/address.md)**(Alamat)**.
-* **Warehouse** memiliki 0 atau lebih [**Item**](item.md)****
+* **Warehouse** memiliki 0 atau lebih [**Item**](item.md)
 * **Warehouse** memiliki satu [**Account**](../../account-concept.md) **(type Stock)**
 
 ### Relasi

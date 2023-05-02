@@ -12,12 +12,12 @@
 
 ### Logika&#x20;
 
-* **Sales Order** milik [**Company**](../core-concept/#company-perusahaan)****
-* **Sales Order** milik [**Sales Partner**](sales-partner.md)****
+* **Sales Order** milik [**Company**](../core-concept/#company-perusahaan)
+* **Sales Order** milik [**Sales Partner**](sales-partner.md)
 * **Sales Order** milik **Salesperson**
 * **Sales Order** dapat dikaitkan dengan **Quotation**
-* **Sales Order** dapat menjadi [**Sales Order**](sales-order.md)****
-* **Sales Order** memiliki 1 atau lebih [**Item**](../stock-concept/basic/item.md)****
+* **Sales Order** dapat menjadi [**Sales Order**](sales-order.md)
+* **Sales Order** memiliki 1 atau lebih [**Item**](../stock-concept/basic/item.md)
 * **Sales Order** memiliki satu [**Address** ](../crm-concept/address.md)**(Alamat)**.
 * **Sales Order** memiliki satu [**Contact** ](../crm-concept/contact.md)**(Kontak)**.
 * **Sales Order** memiliki 0 atau lebih **Tax**
@@ -42,6 +42,6 @@
 
 ### Related Topics
 
-1. ****[**Sales Invoice**](sales-invoice.md)****
-2. ****[**Delivery Note**](../stock-concept/stock-transactions/delivery-note.md)****
+1. [**Sales Invoice**](sales-invoice.md)
+2. [**Delivery Note**](../stock-concept/stock-transactions/delivery-note.md)
 3. **Payment**

@@ -8,12 +8,12 @@
 
 ### Logika&#x20;
 
-* **Quotation** milik [**Company**](../core-concept/#company-perusahaan)****
-* **Quotation** milik [**Sales Partner**](sales-partner.md)****
+* **Quotation** milik [**Company**](../core-concept/#company-perusahaan)
+* **Quotation** milik [**Sales Partner**](sales-partner.md)
 * **Quotation** milik **Sales Person**
-* **Quotation** dapat dikaitkan dengan [**Opportunity**](../crm-concept/opportunity.md)****
-* **Quotation** dapat menjadi [**Sales Order**](sales-order.md)****
-* **Quotation** memiliki 1 atau lebih [**Item**](../stock-concept/basic/item.md)****
+* **Quotation** dapat dikaitkan dengan [**Opportunity**](../crm-concept/opportunity.md)
+* **Quotation** dapat menjadi [**Sales Order**](sales-order.md)
+* **Quotation** memiliki 1 atau lebih [**Item**](../stock-concept/basic/item.md)
 * **Quotation** memiliki satu [**Address** ](../crm-concept/address.md)**(Alamat)**.
 * **Quotation** memiliki satu [**Contact** ](../crm-concept/contact.md)**(Kontak)**.
 * **Quotation** memiliki 0 atau lebih **Tax**

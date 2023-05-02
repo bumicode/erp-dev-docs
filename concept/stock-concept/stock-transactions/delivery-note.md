@@ -21,4 +21,4 @@ Pada dasarnya, Delivery Note adalah dokumen penting dalam logistik dan manajemen
 #### Jika sudah dikirim
 
 * **Debit :** Akun HPP Pembelian
-* **Credit :** Akun Persediaan Barang ****&#x20;
+* **Credit :** Akun Persediaan Barang&#x20;
