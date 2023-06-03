@@ -8,7 +8,7 @@ Material Request adalah permintaan bahan atau barang tertentu yang diajukan oleh
 
 * **Material Request** milik [**Company**](../../core-concept/#company-perusahaan)
 * **Material Request** memiliki 1 atau lebih [**Item**](../basic/item.md)
-* **Material Request** bisa menjadi referensi dari ([**Sales Order**](../../selling-concept/sales-order.md), [**Request for Quotation**](../../buying-concept/request-for-quotation.md), [**Supplier Quotation**](../../buying-concept/supplier-quotation.md), [**Purchase Order**](../../buying-concept/purchase-order.md)). Contoh: ketika ada **Sales Order** tapi stock tidak mencukupi, maka akan membuat **Material Request** yang kemudian **Material Request** dapat di konversi menjadi **Purchase Order.**
+* **Material Request** mendapatkan id referensi dari ([**Sales Order**](../../selling-concept/sales-order.md), [**Request for Quotation**](../../buying-concept/request-for-quotation.md), [**Supplier Quotation**](../../buying-concept/supplier-quotation.md), [**Purchase Order**](../../buying-concept/purchase-order.md)). Contoh: ketika ada **Sales Order** tapi stock tidak mencukupi, maka dapat membuat **Material Request** yang kemudian **Material Request** dapat di konversi menjadi [**Purchase Order**](../../buying-concept/purchase-order.md)**.**
 
 ### Relasi
 
@@ -17,3 +17,6 @@ Material Request adalah permintaan bahan atau barang tertentu yang diajukan oleh
 * **Material Request** belongs to a **Sales Order; Sales Order** has one **Material Request.**
 * **Material Request** has one **Purchase Order; Purchase Order** belongs to a **Material Request.**
 
+### Table Structure
+
+[https://dbdocs.io/mohamadsyalvasr/bumicode\_erp?table=material\_requests\&schema=stock\&view=table\_structure](https://dbdocs.io/mohamadsyalvasr/bumicode\_erp?table=material\_requests\&schema=stock\&view=table\_structure)

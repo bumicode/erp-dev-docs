@@ -16,7 +16,6 @@
 * **Sales Order** milik [**Sales Partner**](sales-partner.md)
 * **Sales Order** milik **Salesperson**
 * **Sales Order** dapat dikaitkan dengan **Quotation**
-* **Sales Order** dapat menjadi [**Sales Order**](sales-order.md)
 * **Sales Order** memiliki 1 atau lebih [**Item**](../stock-concept/basic/item.md)
 * **Sales Order** memiliki satu [**Address** ](../crm-concept/address.md)**(Alamat)**.
 * **Sales Order** memiliki satu [**Contact** ](../crm-concept/contact.md)**(Kontak)**.
@@ -38,7 +37,7 @@
 
 ### Table Structure
 
-
+[https://dbdocs.io/mohamadsyalvasr/bumicode\_erp?table=sales\_orders\&schema=selling\&view=table\_structure](https://dbdocs.io/mohamadsyalvasr/bumicode\_erp?table=sales\_orders\&schema=selling\&view=table\_structure)
 
 ### Related Topics
 
