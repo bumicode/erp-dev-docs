@@ -34,12 +34,12 @@ Secara umum, **Purchase Order** adalah dokumen penting dalam proses pembelian ya
 * **Purchase Order** belongs to a **Company**; **Company** has 0 to many **Sales Orders.**
 * **Purchase Order** belongs to a **Material Request**; **Material Request** has one **Purchase Order.**&#x20;
 * **Purchase Order** belongs to a **Supplier**; **Supplier** has 0 to many **Purchase Orders.**
-* **Purchase Order** morph to many **Supplier Addresses**; **Address** morphed by Many **Purchase Orders. \***&#x20;
-* **Purchase Order** morph to many **Supplier Contacts**; **Contact** morphed by Many **Purchase Orders. \***
-* **Purchase Order** morph to many **Shipping Addresses**; **Address** morphed by Many **Purchase Orders. \***
+* **Purchase Order** has one **Supplier** **(Address)**; **Supplier (Address)** belongs to a **Purchase Orders. \***&#x20;
+* **Purchase Order** has one **Supplier (Contact)**; **Supplier (Contact)** belongs to a **Purchase Orders. \***
+* **Purchase Order** has one **Shipping (Address)**; **Shipping (Address)** belongs to **Purchase Orders. \***
 * **Purchase Order** morph to many **Itemables**; **Itemables** morphed to Many **Sales Order.**
 * **Purchase Order** morph to many **Taxable; Taxable** morphed to Many **Sales Order**&#x20;
 * **Purchase Order** morph to many **Chargeable**; **Chargeable** morphed to Many **Sales Order**&#x20;
 * **Purchase Order** has one **Terms**; **Terms** belongs to a **Purchase Order**&#x20;
 
-### Table Structur
+### Table Structure
