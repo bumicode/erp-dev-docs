@@ -4,7 +4,7 @@
   * [Pengantar](readme/pengantar.md)
   * [Alur Aplikasi](readme/alur-aplikasi.md)
 * [📍 Getting Started](getting-started.md)
-* [📘 Konsep](concept/README.md)
+* [💡 Konsep](concept/README.md)
   * [Core Concept](concept/core-concept/README.md)
     * [Company](concept/core-concept/company.md)
     * [User](concept/core-concept/user.md)
@@ -65,3 +65,4 @@
     * [📋 Audit Record](concept/system-security/audit-record.md)
 * [👨💻 Back-End](back-end.md)
 * [💻 Front-End](front-end.md)
+* [📚 Note, Reference](note-reference.md)
