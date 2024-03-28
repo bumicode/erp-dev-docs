@@ -51,12 +51,19 @@ DB_PASSWORD=     // Sesuaikan dengan password database
 ...
 </code></pre>
 
-* Install dependensi server, app key, migration database
+* Install dependensi server, app key, migration database.
 
 ```bash
 composer install
 php artisan key:generate
-php artisan migrate
+php artisan migrate --seed
+```
+
+* Run Shiled (Roles and Permissions)
+
+```bash
+php artisan shield:generate
+php artisan shield:super-admin
 ```
 
 * Run Laravel

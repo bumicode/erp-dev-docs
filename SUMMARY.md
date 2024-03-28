@@ -1,6 +1,6 @@
 # Table of contents
 
-* [ℹ Welcome](README.md)
+* [ℹ️ Welcome](README.md)
   * [Pengantar](readme/pengantar.md)
   * [Alur Aplikasi](readme/alur-aplikasi.md)
 * [📍 Getting Started](getting-started.md)
@@ -60,9 +60,9 @@
     * [Return](concept/stock-concept/return/README.md)
       * [Sales Return](concept/stock-concept/return/sales-return.md)
       * [Purchase Return](concept/stock-concept/return/purchase-return.md)
-  * [🛡 System Security](concept/system-security/README.md)
+  * [🛡️ System Security](concept/system-security/README.md)
     * [🐞 Logs & Debugging](concept/system-security/logs-and-debugging.md)
     * [📋 Audit Record](concept/system-security/audit-record.md)
-* [👨💻 Back-End](back-end.md)
+* [👨‍💻 Back-End](back-end.md)
 * [💻 Front-End](front-end.md)
 * [📚 Note, Reference](note-reference.md)
