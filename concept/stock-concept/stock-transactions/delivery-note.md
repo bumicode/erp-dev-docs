@@ -18,7 +18,9 @@ Pada dasarnya, Delivery Note adalah dokumen penting dalam logistik dan manajemen
 
 ### Akuntansi
 
-#### Jika sudah dikirim
+Jika pembayaran dilakukan setelah pengiriman (kredit):
 
-* **Debit :** Akun HPP Pembelian
-* **Credit :** Akun Persediaan Barang&#x20;
+* **Debit:** Persediaan Barang Dagang (HPP)
+* **Kredit:** Harga Pokok Penjualan (HPP)
+
+Jika pembayaran dilakukan sebelum pengiriman (tunai): Tidak ada pencatatan akuntansi pada tahap ini karena transaksi sudah dicatat saat pembayaran diterima.
